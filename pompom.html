@@ -1,0 +1,177 @@
+<style>
+
+html,body,.container{
+  height:100vh;
+}
+
+body{
+  font-family: Lexend;
+background-image: linear-gradient(rgba(48, 227, 203, 0.5), rgba(230, 251, 255, 3.7)),
+                  url("https://static.independent.co.uk/2023/06/23/15/iStock-1399418097.jpg");
+   background-position:center; 
+   background-size: cover; 
+   background-color:#f8faf2;
+
+}
+.container{
+  display:grid;
+  align-items:center;
+  justify-content:center;
+  gap:128px;
+
+}
+
+.hobbie-container{
+  display:grid;
+  justify-content:center;
+  align-items:center;
+  height:520px;
+  width:1216px;
+  gap:64px;
+}
+
+.text-container{
+  display:grid;
+  justify-self:center;
+  align-items:center;
+  height:80px;
+  width:390px;
+}
+
+.hobbie-cards-container{
+  display:grid;
+  grid-template-columns:repeat(3,320px);
+  grid-template-rows:repeat(3,320px);
+  gap:128px;
+  height:320px;
+  width:1216px;
+}
+
+.image-right{
+  display:grid;
+  height:320px;
+  width:320px;
+  border-radius:16px;
+  border: 4px solid #242424;
+  overflow:hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.image-right:hover{
+  transform:scale(1.2);
+}
+
+.image-right img{
+  height:330px;
+  width:320px;
+  border-radius:16px;
+  object-fit:cover;
+  object-position: 48%;
+  transform:scale(1.03);
+  filter:grayscale(55%) blur(3.2px) hue-rotate(-35deg);
+  transition: all 0.2s ease-in-out;
+
+}
+
+.image-right img:hover{
+  filter:grayscale(0%);
+}
+
+h2{
+  font-family: "Quicksand", sans-serif;
+  margin:0;
+  padding:0;
+  display:grid;
+  font-size:42px;
+  color:#e6e6e6;
+  text-align:center;
+
+}
+h1{
+font-family: "Quicksand", sans-serif;
+font-size:50px;
+margin:0;
+text-align:center;
+font-weight:bold;
+}
+p{
+  margin:0;
+  padding:0;
+  display:grid;
+  font-weight:normal;
+  text-align:center;
+  color:#4a4a4a;
+}
+
+.buttons-container{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-self:center;
+  
+}
+
+.see-all{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111111;
+  border-radius: 48px;
+  border: 2px solid #242424;
+  padding: 12px 24px;
+  gap:16px;
+  transition: all 0.2s ease-in-out;
+}
+
+a{
+  color:#e6e6e6;
+  font-family: Lexend;
+  text-decoration: none;
+}
+
+.see-all:hover{
+  border:2px solid #FEAC5E;
+  background:#242424;
+  box-shadow: 0px 0px 64px rgb(254, 172, 94, 0.4) ;
+}
+
+.see-all path{
+  transition: fill 0.2s ease-in-out;
+}
+
+.see-all:hover path{
+  fill:#FEAC5E;
+}
+</style>
+<body>
+<div class="container">
+  <div class="hobbie-container">
+    <div class="text-container">
+      <h2>WHAT CAN YOU </h2>
+      <h1>DO</h1>
+    </div>
+    <div class="hobbie-cards-container">
+      <div class="image-right">
+        <img src="https://aintreegroup.com.au/wp-content/uploads/2023/03/Featured-Images-Blog-News-Video-Thumbnails-2-1.png" alt="">
+      </div>
+      <div class="image-right">
+        <img src="https://im.rediff.com/travel-living/2015/apr/Plasticbagban.png" alt="">
+      </div>
+      <div class="image-right">
+        <img src=https://swmetrowater.org/wp-content/uploads/2023/04/River-clean-up-2023-640x330.jpg" alt="">
+      </div>
+    <div class="image-right">
+        <img src="https://iagre.org/kcfinder/upload/files/images/what%20is%20news.jpg" alt="">
+      </div>
+    <div class="image-right">
+        <img src="https://www.pentair.com/en-us/about-pentair/newsroom/blog/9-facts-about-bottled-water/jcr:content/hero/hero-par/hero_image/image.img.jpg/1621891355680.jpg" alt="">
+      </div>
+    <div class="image-right">
+        <img src="https://images.squarespace-cdn.com/content/v1/58c03b872e69cfc931230b4d/1630582770894-J4833GXKDFPGAYAYC13K/sea+life+plastics+marine+environmental+fish" alt="">
+      </div>
+    <div class="image-right">
+        <img src="https://images.thefishsite.com/fish/articles/asia/credit-barramundi-asia.jpg?width=650&height=0" alt="">
+      </div>
+    </div>    
+  </div>  
+</body>
